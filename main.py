@@ -30,7 +30,7 @@ def main(get_filepath):
     letter_dict_list = letter_dict_convert(letter_count)
     letter_dict_list.sort(reverse=True, key=sort_on)
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {get_filepath}...")
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")
